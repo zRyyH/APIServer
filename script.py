@@ -1,9 +1,9 @@
 import time
-import random
 
+t0 = time.time()
+n = 0
+while n < 100000000:
+    n += 1
+t1 = time.time()
 
-while True:
-    delta = time.time()
-    while delta < delta+random.randint(100, 999):
-        print('Hello World !')
-        print(delta)
+print(t1-t0)
