@@ -2,7 +2,7 @@ import time
 
 t0 = time.time()
 n = 0
-while n < 100000000:
+while n < 1000000000:
     n += 1
 t1 = time.time()
 
